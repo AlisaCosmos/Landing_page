@@ -1,0 +1,13 @@
+.container {
+  max-width: 1024px;
+  margin: auto;
+}
+.is-hidden {
+  display: none!important;
+} /*Класс для js скрипта*/
+
+/*--Свойство скрывать текст если не загрузилась ссылка--*/
+.visually-hidden {
+  text-indent: -9999px;
+  font-size: 0;
+}
